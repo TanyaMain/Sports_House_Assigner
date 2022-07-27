@@ -11,8 +11,6 @@ public class SportsHouseAssigner {
         
         String[] sportsHouse = {"BLUE", "WHITE", "RED"};
         Random rand = new Random();
-        //int colours = rand.nextInt(sportsHouse.length);
-        //int numbers = rand.nextInt(1000);
         
         String firstName = JOptionPane.showInputDialog(null,    "Please enter the first student name.");
         String secondName = JOptionPane.showInputDialog(null,   "Please enter the second student name.");
