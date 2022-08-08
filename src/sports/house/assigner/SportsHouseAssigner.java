@@ -26,7 +26,8 @@ public class SportsHouseAssigner {
                   + secondName + " assigned to the " + sportsHouse[ rand.nextInt(sportsHouse.length)] 
                   + " house with student number " + sportsHouse[ rand.nextInt(sportsHouse.length)] + rand.nextInt(1000) + "\n" 
                   + thirdName + " assigned to the " + sportsHouse[ rand.nextInt(sportsHouse.length)]
-                  + " house with student number "  + sportsHouse[ rand.nextInt(sportsHouse.length)] + rand.nextInt(1000));
+                  + " house with student number "  + sportsHouse[ rand.nextInt(sportsHouse.length)] + rand.nextInt(1000)
+          , "School House Assignment", JOptionPane.INFORMATION_MESSAGE);
     }
     
 }
